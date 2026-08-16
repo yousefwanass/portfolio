@@ -13,6 +13,7 @@ const siteConfig = {
     linkedin: 'https://www.linkedin.com/in/yousef-wanas-368556311/', 
     github: 'https://github.com/yousefwanass', 
     email: 'ywanas04@gmail.com', 
+    whatsapp: 'https://wa.me/201065302949',
   },
   resume: {
     pdfPath: 'https://docs.google.com/document/d/1Gkf--pB9DN4XVAnIMBqfKRU8Z6td9b3l/edit?usp=drive_link&ouid=101454682829412581682&rtpof=true&sd=true', 

@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Github, Linkedin, Mail, Send } from 'lucide-react'
+import { Github, Linkedin, Mail, Send ,Phone} from 'lucide-react'
 import siteConfig from '../data/siteConfig'
 
 export default function Contact() {
@@ -52,6 +52,15 @@ export default function Contact() {
             >
               <Github size={16} className="text-signal-teal" />
               GitHub
+            </a>
+            <a
+              href={siteConfig.links.whatsapp}
+              target="_blank"
+              rel="noreferrer"
+              className="flex items-center gap-3 font-mono text-sm text-paper transition-colors hover:text-signal-teal"
+            >
+              <Phone size={16} className="text-signal-teal" />
+              WhatsApp
             </a>
           </div>
         </div>
