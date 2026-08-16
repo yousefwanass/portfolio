@@ -37,7 +37,7 @@ export default function ProjectModal({ project, onClose }) {
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 z-10 flex items-start justify-between gap-4 rounded-t-xl border-b border-ink-border bg-ink-surface px-6 py-5 sm:px-8">
+        <div className="flex items-start justify-between gap-4 rounded-t-xl border-b border-ink-border bg-ink-surface px-6 py-5 sm:px-8">
           <div>
             <p className="eyebrow mb-1">case study</p>
             <h2 className="font-display text-2xl font-semibold text-paper">{project.title}</h2>
@@ -52,7 +52,7 @@ export default function ProjectModal({ project, onClose }) {
           </button>
         </div>
 
-        <div className="px-6 sm:px-8">
+        <div className="mt-5 px-6 sm:px-8">
           <Section eyebrow="the problem" title="Business Problem">
             <p className="text-[15px] leading-relaxed text-paper-muted">{project.businessProblem}</p>
           </Section>
